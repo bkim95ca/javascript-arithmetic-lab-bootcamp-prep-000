@@ -5,3 +5,8 @@ function makeZoo() {
 
   console.log(`I think I'll put this ${animal} in the zoo.`)
 }
+
+
+makeZoo();
+
+animal
