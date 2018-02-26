@@ -1,4 +1,4 @@
-var myScope = outerFunction();
+var myScope = innerScope();
 
 function outerFunction() {
   var innerVariable = "I'm sort of a secret.";
