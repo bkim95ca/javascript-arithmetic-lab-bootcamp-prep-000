@@ -10,4 +10,4 @@ function outerFunction() {
 }
 
 
-myScope;
+innerScope();
