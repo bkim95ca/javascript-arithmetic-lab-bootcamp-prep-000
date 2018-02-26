@@ -1,6 +1,5 @@
 function log(s) {
   var s = 'Mr.X';
-  console.log('Hello!'
-  );
+  console.log('s');
 }
 log('Hello!');
