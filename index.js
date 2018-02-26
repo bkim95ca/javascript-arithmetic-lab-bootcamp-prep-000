@@ -1,6 +1,6 @@
-var myScope = outerFunction()
+var myScope = outerFunction();
 function outerFunction() {
-  var innerVarible = "I'm sort of a secret.";
+  var innerVariable = "I'm sort of a secret.";
 
   return function innerScope() {
     var inaccessible = "Nothing can touch me.";
