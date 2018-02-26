@@ -1,5 +1,5 @@
 log();
-function logvar log = function() {
+var log = function() {
     console.log(greeting);
   var greeting = 'Hello!';
 }
