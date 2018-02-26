@@ -1,14 +1,7 @@
-var myScope = outerFunction();
+var animal = 'dog';
 
-function outerFunction() {
-  var innerVariable = "I'm sort of a secret.";
+function makeZoo() {
+  var animal = 'cat';
 
-  return function innerScope() {
-    var inaccessible = "Nothing can touch me.";
-
-    return innerVariable;
-  }
+  console.log(`I think I'll put this ${animal} in the zoo.`)
 }
-
-
-console.log(myScope());
