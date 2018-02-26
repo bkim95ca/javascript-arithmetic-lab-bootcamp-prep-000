@@ -11,4 +11,4 @@ function outerFunction() {
 }
 
 var myScope = outerFunction();
-console(myScope());
+console.log(myScope());
