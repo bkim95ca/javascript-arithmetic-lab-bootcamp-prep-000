@@ -3,5 +3,6 @@ function outerFunction() {
 
   return function innerScope() {
     var inaccessible = "nothing can touch me."
+    return innerVariable;
   }
 }
